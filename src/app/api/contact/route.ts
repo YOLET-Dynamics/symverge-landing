@@ -193,8 +193,11 @@ export async function POST(request: Request) {
       );
     }
 
-    const { error } = await resend.emails.send({
-      from: "SYMVERGE Contact <noreply@symverge.tech>",
+    const fromAddress =
+      process.env.RESEND_FROM ?? "SYMVERGE Contact <noreply@symverge.tech>";
+
+    const { data, error } = await resend.emails.send({
+      from: fromAddress,
       to: "contact@symverge.tech",
       replyTo: email,
       subject: `New inquiry from ${name}`,
@@ -205,11 +208,14 @@ export async function POST(request: Request) {
     });
 
     if (error) {
+      console.error("[Resend error]", JSON.stringify(error));
       return NextResponse.json(
         { error: "Failed to send message." },
         { status: 500 }
       );
     }
+
+    console.log("[Resend success]", data?.id);
 
     return NextResponse.json({ success: true });
   } catch {
