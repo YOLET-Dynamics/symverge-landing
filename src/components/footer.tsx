@@ -28,7 +28,7 @@ export function Footer() {
             <h4 className="text-xs font-semibold uppercase tracking-widest text-gray-400 sm:text-sm">
               Navigation
             </h4>
-            <nav className="mt-3 flex flex-col gap-2.5 sm:mt-4 sm:gap-3">
+            <nav aria-label="Footer navigation" className="mt-3 flex flex-col gap-2.5 sm:mt-4 sm:gap-3">
               {footerLinks.map((link) => (
                 <a
                   key={link.href}

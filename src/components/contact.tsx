@@ -48,7 +48,7 @@ export function Contact() {
   });
 
   return (
-    <section id="contact" className="px-5 py-16 sm:px-6 sm:py-32">
+    <section id="contact" aria-label="Contact Us" className="px-5 py-16 sm:px-6 sm:py-32">
       <div
         ref={ref}
         className={`section-reveal mx-auto max-w-5xl ${inView ? "in-view" : ""}`}

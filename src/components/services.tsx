@@ -35,7 +35,7 @@ export function Services() {
   const { ref, inView } = useInView();
 
   return (
-    <section id="services" className="px-5 py-16 sm:px-6 sm:py-32">
+    <section id="services" aria-label="Our Services" className="px-5 py-16 sm:px-6 sm:py-32">
       <div
         ref={ref}
         className={`section-reveal mx-auto max-w-5xl ${inView ? "in-view" : ""}`}
