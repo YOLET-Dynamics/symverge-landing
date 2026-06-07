@@ -27,7 +27,7 @@ const jsonLd = {
       },
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+1-571-235-6218",
+        telephone: "+1-678-549-4114",
         email: "contact@symverge.tech",
         contactType: "sales",
         availableLanguage: "English",

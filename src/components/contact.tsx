@@ -190,10 +190,10 @@ export function Contact() {
               <div>
                 <h4 className="text-sm font-semibold text-white sm:text-base">Phone</h4>
                 <a
-                  href="tel:+15712356218"
+                  href="tel:+16785494114"
                   className="mt-1 block text-sm text-gray-400 transition-colors hover:text-brand-green"
                 >
-                  (571) 235-6218
+                  (678) 549-4114
                 </a>
               </div>
             </div>

@@ -49,10 +49,10 @@ export function Footer() {
               <div className="flex items-center gap-3">
                 <PhoneIcon className="size-4 shrink-0 text-gray-500" />
                 <a
-                  href="tel:+15712356218"
+                  href="tel:+16785494114"
                   className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  (571) 235-6218
+                  (678) 549-4114
                 </a>
               </div>
               <div className="flex items-center gap-3">
