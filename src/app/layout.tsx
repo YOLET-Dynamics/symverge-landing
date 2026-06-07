@@ -17,23 +17,24 @@ const michroma = Michroma({
 export const metadata: Metadata = {
   metadataBase: new URL("https://symverge.tech"),
   title: {
-    default: "SYMVERGE Platforms | Solutions Engineered For You",
+    default: "SYMVERGE Platforms | We Design the Workflow Behind Your Business",
     template: "%s | SYMVERGE Platforms",
   },
   description:
-    "SYMVERGE Platforms is a software engineering and EdTech SaaS company based in Laurel, Maryland. We build custom software and education technology platforms engineered for the way you actually work.",
+    "SYMVERGE designs the workflow behind your business — workflow design, automation, CRM systems, dashboards, and custom software that help businesses get more customers, save time, and grow revenue. Based in Laurel, Maryland.",
   keywords: [
     "SYMVERGE",
     "SYMVERGE Platforms",
-    "software development",
-    "software engineering",
+    "workflow design",
+    "business automation",
+    "process automation",
+    "CRM systems",
     "custom software development",
+    "software engineering",
+    "dashboards and reporting",
+    "business operations software",
     "EdTech",
     "SaaS",
-    "education technology",
-    "education software",
-    "EdTech SaaS platform",
-    "learning management system",
     "web application development",
     "Laurel Maryland",
     "Maryland software company",
@@ -63,9 +64,9 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "SYMVERGE Platforms | Solutions Engineered For You",
+    title: "SYMVERGE Platforms | We Design the Workflow Behind Your Business",
     description:
-      "Custom software development and EdTech SaaS platforms built for the education sector. Based in Laurel, Maryland.",
+      "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother. Based in Laurel, Maryland.",
     type: "website",
     locale: "en_US",
     url: "https://symverge.tech",
@@ -73,9 +74,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "SYMVERGE Platforms | Solutions Engineered For You",
+    title: "SYMVERGE Platforms | We Design the Workflow Behind Your Business",
     description:
-      "Custom software development and EdTech SaaS platforms built for the education sector.",
+      "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother.",
   },
   alternates: {
     canonical: "https://symverge.tech",

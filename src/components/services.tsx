@@ -1,9 +1,12 @@
 "use client";
 
 import {
+  ArrowsRightLeftIcon,
+  BoltIcon,
+  UserGroupIcon,
+  ChartBarIcon,
   CodeBracketIcon,
   AcademicCapIcon,
-  ArrowRightIcon,
 } from "@heroicons/react/24/outline";
 import {
   Card,
@@ -17,16 +20,44 @@ import { useInView } from "@/hooks/use-in-view";
 const services = [
   {
     num: "01",
-    title: "Custom Software Development",
+    title: "Workflow Design",
     description:
-      "Off-the-shelf never fits. We architect and build bespoke software, web apps, internal tools, complex integrations, engineered from scratch to match exactly how your organization thinks, operates, and grows. Clean code. Zero compromises.",
-    icon: CodeBracketIcon,
+      "We map how your business actually runs, then redesign the process so it's faster, clearer, and built to scale — not held together by memory and habit.",
+    icon: ArrowsRightLeftIcon,
   },
   {
     num: "02",
-    title: "EdTech SaaS Platforms",
+    title: "Automation",
     description:
-      "Education deserves better tools. Our SaaS platforms are purpose-built to cut through administrative chaos, spark student engagement, and surface insights that actually matter. Accessible anywhere, intuitive everywhere.",
+      "Follow-ups, reminders, intake, forms, internal alerts — we turn the repetitive work that eats your day into systems that run themselves.",
+    icon: BoltIcon,
+  },
+  {
+    num: "03",
+    title: "CRM & Customer Systems",
+    description:
+      "Leads, customers, appointments, and follow-ups in one organized place — so nothing slips through and everyone knows what happens next.",
+    icon: UserGroupIcon,
+  },
+  {
+    num: "04",
+    title: "Dashboards & Reporting",
+    description:
+      "Clear dashboards that show what's actually happening in your business, so you can make decisions on facts instead of gut feel.",
+    icon: ChartBarIcon,
+  },
+  {
+    num: "05",
+    title: "Custom Software",
+    description:
+      "When off-the-shelf tools don't fit, we architect and build bespoke web apps, internal tools, and integrations — engineered from scratch around how you work.",
+    icon: CodeBracketIcon,
+  },
+  {
+    num: "06",
+    title: "EdTech Platforms",
+    description:
+      "Purpose-built platforms for schools and education programs: cut administrative chaos, lift engagement, and surface the insights that matter.",
     icon: AcademicCapIcon,
   },
 ];
@@ -40,26 +71,26 @@ export function Services() {
         ref={ref}
         className={`section-reveal mx-auto max-w-5xl ${inView ? "in-view" : ""}`}
       >
-        <span className="text-xs font-semibold uppercase tracking-widest text-brand-green sm:text-sm">
-          Services
-        </span>
+        <span className="eyebrow">Services</span>
 
         <h2 className="mt-3 text-2xl font-bold tracking-tight text-white sm:mt-4 sm:text-3xl md:text-4xl">
-          Two things. Done <span className="text-brand-green">exceptionally</span> well.
+          Everything it takes to{" "}
+          <span className="text-brand-green">run smoother.</span>
         </h2>
 
         <p className="mt-3 max-w-2xl text-base text-gray-400 sm:mt-4 sm:text-lg">
-          We keep our focus razor-sharp so you get depth, not breadth.
+          From the first workflow map to the software that runs it — one team,
+          end to end.
         </p>
 
-        <div className="mt-8 grid gap-6 sm:mt-12 sm:grid-cols-2 sm:gap-8">
+        <div className="mt-8 grid gap-6 sm:mt-12 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
           {services.map((service, i) => (
             <Card
               key={service.title}
               className={`group relative border-white/10 bg-white/[0.03] p-5 transition-all duration-300 hover:border-brand-green/30 hover:bg-white/[0.05] hover:shadow-lg hover:shadow-brand-green/5 sm:p-8 ${
                 inView ? "in-view" : ""
               } section-reveal`}
-              style={{ transitionDelay: inView ? `${i * 150}ms` : "0ms" }}
+              style={{ transitionDelay: inView ? `${i * 80}ms` : "0ms" }}
             >
               <span className="absolute top-4 right-4 text-3xl font-bold text-white/5 select-none sm:top-6 sm:right-6 sm:text-4xl">
                 {service.num}
@@ -70,14 +101,10 @@ export function Services() {
                 </div>
                 <CardTitle className="text-lg text-white sm:text-xl">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-4">
+              <CardContent>
                 <CardDescription className="text-sm leading-relaxed text-gray-400 sm:text-base">
                   {service.description}
                 </CardDescription>
-                <div className="flex items-center gap-2 text-sm font-medium text-brand-green opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span>Learn more</span>
-                  <ArrowRightIcon className="size-4" />
-                </div>
               </CardContent>
             </Card>
           ))}

@@ -24,13 +24,13 @@ export function CtaBanner() {
           </span>
 
           <h2 className="mx-auto mt-6 max-w-2xl text-2xl font-bold tracking-tight text-white sm:mt-8 sm:text-3xl md:text-4xl lg:text-5xl">
-            Ready to build something that actually{" "}
-            <span className="text-brand-gold/90">matters?</span>
+            Ready to fix the workflow behind your{" "}
+            <span className="text-brand-gold/90">growth?</span>
           </h2>
 
           <p className="mx-auto mt-4 max-w-lg text-base text-white/60 sm:mt-6 sm:text-lg">
-            Stop settling for software that slows you down.
-            Let&apos;s talk about what&apos;s possible.
+            Book a workflow audit and we&apos;ll show you exactly where you&apos;re
+            losing time, leads, and revenue.
           </p>
 
           <div className="mt-8 flex items-center justify-center sm:mt-10">
@@ -40,7 +40,7 @@ export function CtaBanner() {
               className="group w-full rounded-full bg-white px-8 text-base font-semibold text-[#1b3d2f] transition-all hover:bg-brand-gold hover:text-[#0a0a0a] hover:shadow-lg hover:shadow-brand-gold/20 sm:w-auto"
             >
               <a href="#contact" className="inline-flex items-center justify-center gap-2">
-                Start a Conversation
+                Book a Workflow Audit
                 <ArrowRightIcon className="size-4 transition-transform group-hover:translate-x-0.5" />
               </a>
             </Button>

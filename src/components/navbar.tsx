@@ -5,8 +5,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
+  { label: "How We Work", href: "#process" },
+  { label: "Industries", href: "#industries" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -64,7 +65,7 @@ export function Navbar() {
         >
           <Logo className={`transition-all duration-500 ${scrolled ? "text-sm" : "text-lg sm:text-xl"}`} />
 
-          <div className="hidden items-center gap-10 md:flex lg:gap-12">
+          <div className="hidden items-center gap-7 md:flex lg:gap-9">
             {navLinks.map((link) => (
               <a
                 key={link.href}

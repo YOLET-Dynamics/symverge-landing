@@ -5,8 +5,9 @@ import {
 } from "@heroicons/react/24/outline";
 
 const footerLinks = [
-  { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
+  { label: "How We Work", href: "#process" },
+  { label: "Industries", href: "#industries" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -20,7 +21,10 @@ export function Footer() {
               SYM<span className="text-brand-green">VERGE</span>
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-gray-400">
-              Solutions engineered for you. Seriously.
+              We design the workflow behind your business.
+            </p>
+            <p className="mt-3 text-xs leading-relaxed text-gray-500">
+              Workflow · Automation · CRM · Dashboards · Custom Software
             </p>
           </div>
 

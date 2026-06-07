@@ -61,22 +61,21 @@ export function Hero() {
         <div className="animate-fade-in-up inline-flex items-center gap-2">
           <span className="hidden h-px w-8 bg-brand-green sm:inline-block" />
           <span className="text-xs font-medium uppercase tracking-widest text-brand-green sm:text-sm">
-            Solutions engineered for you.
+            Workflow · Automation · Custom Software
           </span>
           <span className="hidden h-px w-8 bg-brand-green sm:inline-block" />
         </div>
 
         <h1 className="animate-fade-in-up mt-6 text-3xl font-bold tracking-tight text-white sm:mt-8 sm:text-5xl md:text-6xl lg:text-7xl">
-          Your vision.
+          We design the workflow
           <br />
-          <span className="text-brand-green">Our engineering.</span>
+          <span className="text-brand-green">behind your business.</span>
         </h1>
 
         <p className="animate-fade-in-up-delay mx-auto mt-6 max-w-2xl text-base leading-relaxed text-gray-400 sm:mt-8 sm:text-lg md:text-xl">
-          Most software is built to check a box. Ours is built to change the
-          game. We craft custom platforms and EdTech tools that don&apos;t just
-          work, they make people wonder why it wasn&apos;t always this
-          easy.
+          SYMVERGE builds the systems, automations, and custom software that
+          help businesses get more customers, save time, and grow revenue —
+          without the operational chaos.
         </p>
 
         <div className="animate-fade-in-up-delay-2 mt-8 flex flex-col items-center justify-center gap-3 sm:mt-12 sm:flex-row sm:gap-4">
@@ -85,14 +84,14 @@ export function Hero() {
             size="lg"
             className="w-full rounded-full bg-brand-green px-8 text-base font-semibold text-white hover:bg-brand-gold hover:text-[#0a0a0a] sm:w-auto"
           >
-            <a href="#contact">Let&apos;s Build Something</a>
+            <a href="#contact">Book a Workflow Audit</a>
           </Button>
           <Button
             asChild
             size="lg"
             className="w-full rounded-full border border-white/20 bg-transparent px-8 text-base text-white hover:bg-white/10 sm:w-auto"
           >
-            <a href="#services">See What We Do</a>
+            <a href="#process">See How We Work</a>
           </Button>
         </div>
       </div>

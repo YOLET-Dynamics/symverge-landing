@@ -53,18 +53,16 @@ export function Contact() {
         ref={ref}
         className={`section-reveal mx-auto max-w-5xl ${inView ? "in-view" : ""}`}
       >
-        <span className="text-xs font-semibold uppercase tracking-widest text-brand-green sm:text-sm">
-          Contact
-        </span>
+        <span className="eyebrow">Contact</span>
 
         <h2 className="mt-3 text-2xl font-bold tracking-tight text-white sm:mt-4 sm:text-3xl md:text-4xl">
-          Got an idea? Let&apos;s make it{" "}
-          <span className="text-brand-green">real.</span>
+          Book your{" "}
+          <span className="text-brand-green">workflow audit.</span>
         </h2>
 
         <p className="mt-3 max-w-2xl text-base text-gray-400 sm:mt-4 sm:text-lg">
-          Whether it&apos;s a napkin sketch or a full spec, we&apos;re
-          ready to talk. No pitch decks required.
+          Tell us where things feel messy. We&apos;ll show you what to fix first
+          — no pitch decks required.
         </p>
 
         <div className="mt-8 grid gap-10 sm:mt-12 lg:grid-cols-5 lg:gap-12">
@@ -181,9 +179,7 @@ export function Contact() {
                     disabled={mutation.isPending}
                     className="w-full rounded-full bg-brand-green px-8 text-base font-semibold text-white hover:bg-brand-gold hover:text-[#0a0a0a] sm:w-auto"
                   >
-                    {mutation.isPending
-                      ? "Sending..."
-                      : "Start the Conversation"}
+                    {mutation.isPending ? "Sending..." : "Book My Audit"}
                   </Button>
                 </form>
               </div>

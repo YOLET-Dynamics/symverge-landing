@@ -1,7 +1,10 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
-import { About } from "@/components/about";
+import { Problem } from "@/components/problem";
+import { Solution } from "@/components/solution";
 import { Services } from "@/components/services";
+import { Process } from "@/components/process";
+import { Industries } from "@/components/industries";
 import { CtaBanner } from "@/components/cta-banner";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
@@ -15,7 +18,7 @@ const jsonLd = {
       name: "SYMVERGE Platforms LLC",
       url: "https://symverge.tech",
       description:
-        "Software engineering and EdTech SaaS company building custom software and education technology platforms.",
+        "SYMVERGE designs the workflow behind your business — workflow design, automation, CRM systems, dashboards, and custom software that help businesses get more customers, save time, and grow revenue.",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Laurel",
@@ -43,31 +46,31 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://symverge.tech/#webpage",
       url: "https://symverge.tech",
-      name: "SYMVERGE Platforms | Solutions Engineered For You",
+      name: "SYMVERGE Platforms | We Design the Workflow Behind Your Business",
       isPartOf: { "@id": "https://symverge.tech/#website" },
       about: { "@id": "https://symverge.tech/#organization" },
       description:
-        "Custom software development and EdTech SaaS platforms built for the education sector. Based in Laurel, Maryland.",
+        "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother. Based in Laurel, Maryland.",
       inLanguage: "en-US",
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://symverge.tech/#service-workflow",
+      name: "Workflow Design & Automation",
+      provider: { "@id": "https://symverge.tech/#organization" },
+      description:
+        "We map how your business runs, redesign the workflow, and automate repetitive tasks like follow-ups, reminders, and intake.",
+      areaServed: { "@type": "Country", name: "United States" },
     },
     {
       "@type": ["ProfessionalService", "SoftwareApplication"],
       "@id": "https://symverge.tech/#service-software",
-      name: "Custom Software Development",
+      name: "Custom Software & Systems",
       provider: { "@id": "https://symverge.tech/#organization" },
       description:
-        "Bespoke web applications, internal tools, and complex integrations engineered from scratch.",
+        "Bespoke web applications, internal tools, CRM systems, dashboards, and integrations engineered from scratch around how you work.",
       areaServed: { "@type": "Country", name: "United States" },
-    },
-    {
-      "@type": ["ProfessionalService", "SoftwareApplication"],
-      "@id": "https://symverge.tech/#service-edtech",
-      name: "EdTech SaaS Platforms",
-      provider: { "@id": "https://symverge.tech/#organization" },
-      description:
-        "Purpose-built SaaS platforms for education: student engagement, administrative tools, and learning analytics.",
-      areaServed: { "@type": "Country", name: "United States" },
-      applicationCategory: "EducationalApplication",
+      applicationCategory: "BusinessApplication",
     },
   ],
 };
@@ -82,8 +85,11 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <About />
+        <Problem />
+        <Solution />
         <Services />
+        <Process />
+        <Industries />
         <CtaBanner />
         <Contact />
       </main>
