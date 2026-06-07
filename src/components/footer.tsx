@@ -1,8 +1,4 @@
-import {
-  EnvelopeIcon,
-  MapPinIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 
 const footerLinks = [
   { label: "Services", href: "#services" },
@@ -50,14 +46,6 @@ export function Footer() {
               Contact
             </h4>
             <div className="mt-3 flex flex-col gap-3 sm:mt-4 sm:gap-4">
-              <div className="flex items-start gap-3">
-                <MapPinIcon className="mt-0.5 size-4 shrink-0 text-gray-500" />
-                <span className="text-sm text-gray-400">
-                  Laurel, Maryland
-                  <br />
-                  United States
-                </span>
-              </div>
               <div className="flex items-center gap-3">
                 <PhoneIcon className="size-4 shrink-0 text-gray-500" />
                 <a

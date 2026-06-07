@@ -21,11 +21,12 @@ export const metadata: Metadata = {
     template: "%s | SYMVERGE Platforms",
   },
   description:
-    "SYMVERGE designs the workflow behind your business — workflow design, automation, CRM systems, dashboards, and custom software that help businesses get more customers, save time, and grow revenue. Based in Laurel, Maryland.",
+    "SYMVERGE designs the workflow behind your business — workflow design, automation, CRM systems, dashboards, and custom software that help businesses get more customers, save time, and grow revenue.",
   keywords: [
     "SYMVERGE",
     "SYMVERGE Platforms",
     "workflow design",
+    "workflow automation",
     "business automation",
     "process automation",
     "CRM systems",
@@ -33,11 +34,7 @@ export const metadata: Metadata = {
     "software engineering",
     "dashboards and reporting",
     "business operations software",
-    "EdTech",
-    "SaaS",
     "web application development",
-    "Laurel Maryland",
-    "Maryland software company",
   ],
   authors: [{ name: "SYMVERGE Platforms LLC", url: "https://symverge.tech" }],
   creator: "SYMVERGE Platforms LLC",
@@ -66,7 +63,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SYMVERGE Platforms | We Design the Workflow Behind Your Business",
     description:
-      "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother. Based in Laurel, Maryland.",
+      "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother.",
     type: "website",
     locale: "en_US",
     url: "https://symverge.tech",

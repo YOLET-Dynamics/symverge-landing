@@ -2,11 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
-import {
-  EnvelopeIcon,
-  MapPinIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -187,20 +183,6 @@ export function Contact() {
           </div>
 
           <div className="flex flex-col gap-6 sm:gap-8 lg:col-span-2">
-            <div className="flex items-start gap-4">
-              <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-brand-green/10 sm:size-10">
-                <MapPinIcon className="size-4 text-brand-green sm:size-5" />
-              </div>
-              <div>
-                <h4 className="text-sm font-semibold text-white sm:text-base">Address</h4>
-                <p className="mt-1 text-sm text-gray-400">
-                  Laurel, Maryland
-                  <br />
-                  United States
-                </p>
-              </div>
-            </div>
-
             <div className="flex items-start gap-4">
               <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-brand-green/10 sm:size-10">
                 <PhoneIcon className="size-4 text-brand-green sm:size-5" />

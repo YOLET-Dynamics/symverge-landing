@@ -17,12 +17,12 @@ const jsonLd = {
       "@id": "https://symverge.tech/#organization",
       name: "SYMVERGE Platforms LLC",
       url: "https://symverge.tech",
+      logo: "https://symverge.tech/android-chrome-512x512.png",
+      image: "https://symverge.tech/opengraph-image",
       description:
         "SYMVERGE designs the workflow behind your business — workflow design, automation, CRM systems, dashboards, and custom software that help businesses get more customers, save time, and grow revenue.",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Laurel",
-        addressRegion: "MD",
         addressCountry: "US",
       },
       contactPoint: {
@@ -50,7 +50,7 @@ const jsonLd = {
       isPartOf: { "@id": "https://symverge.tech/#website" },
       about: { "@id": "https://symverge.tech/#organization" },
       description:
-        "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother. Based in Laurel, Maryland.",
+        "Workflow design, automation, CRM systems, dashboards, and custom software for businesses that want to run smoother.",
       inLanguage: "en-US",
     },
     {

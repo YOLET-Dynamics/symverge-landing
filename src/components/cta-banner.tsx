@@ -29,7 +29,7 @@ export function CtaBanner() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-lg text-base text-white/60 sm:mt-6 sm:text-lg">
-            Book a workflow audit and we&apos;ll show you exactly where you&apos;re
+            Book a call and we&apos;ll show you exactly where you&apos;re
             losing time, leads, and revenue.
           </p>
 

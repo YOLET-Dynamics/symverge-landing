@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
@@ -17,7 +18,7 @@ export default function NotFound() {
         size="lg"
         className="mt-8 rounded-full bg-brand-green px-8 text-white hover:bg-brand-gold hover:text-[#0a0a0a]"
       >
-        <a href="/">Go Home</a>
+        <Link href="/">Go Home</Link>
       </Button>
     </div>
   );
