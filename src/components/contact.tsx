@@ -57,7 +57,7 @@ export function Contact() {
 
         <h2 className="mt-3 text-2xl font-bold tracking-tight text-white sm:mt-4 sm:text-3xl md:text-4xl">
           Book your{" "}
-          <span className="text-brand-green">workflow audit.</span>
+          <span className="text-brand-green">call.</span>
         </h2>
 
         <p className="mt-3 max-w-2xl text-base text-gray-400 sm:mt-4 sm:text-lg">

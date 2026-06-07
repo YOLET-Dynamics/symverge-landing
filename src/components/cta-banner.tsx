@@ -40,7 +40,7 @@ export function CtaBanner() {
               className="group w-full rounded-full bg-white px-8 text-base font-semibold text-[#1b3d2f] transition-all hover:bg-brand-gold hover:text-[#0a0a0a] hover:shadow-lg hover:shadow-brand-gold/20 sm:w-auto"
             >
               <a href="#contact" className="inline-flex items-center justify-center gap-2">
-                Book a Workflow Audit
+                Book a Call
                 <ArrowRightIcon className="size-4 transition-transform group-hover:translate-x-0.5" />
               </a>
             </Button>

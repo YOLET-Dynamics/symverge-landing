@@ -73,7 +73,7 @@ export function Hero() {
         </h1>
 
         <p className="animate-fade-in-up-delay mx-auto mt-6 max-w-2xl text-base leading-relaxed text-gray-400 sm:mt-8 sm:text-lg md:text-xl">
-          SYMVERGE builds the systems, automations, and custom software that
+          Building the systems, automations, and custom software that
           help businesses get more customers, save time, and grow revenue —
           without the operational chaos.
         </p>
@@ -84,7 +84,7 @@ export function Hero() {
             size="lg"
             className="w-full rounded-full bg-brand-green px-8 text-base font-semibold text-white hover:bg-brand-gold hover:text-[#0a0a0a] sm:w-auto"
           >
-            <a href="#contact">Book a Workflow Audit</a>
+            <a href="#contact">Book a Call</a>
           </Button>
           <Button
             asChild
